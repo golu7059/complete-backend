@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #00698f;
+        }
+        .container {
+            width: 50%;
+            margin: 40px auto;
+            border: 2px solid #00698f;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>If you have any questions or would like to get in touch with me, please fill out the form below.</p>
+        <form action="https://formspree.io/xoqjvkev" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" placeholder="Your name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="_replyto" placeholder="Your email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" placeholder="Your message"></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
